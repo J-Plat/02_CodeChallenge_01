@@ -10,13 +10,17 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
 */
 
 var zahl01, zahl02, summe;
+var input01, input02;
 
+input01 = prompt("Bitte geben Sie die erste Zahl ein");
+input02 = prompt("Bitte geben Sie die zweite Zahl ein");
 
-zahl01 = prompt();
-zahl02= prompt(message? string);
+zahl01 = parseInt(input01);
+zahl02 = parseInt(input02);
 
-zahl01;
-zahl02;
 summe = (zahl01+zahl02);
 
-console.log(summe);
+console.log(typeof input01);
+console.log(typeof zahl01);
+
+console.log("Die Summe der Zahlen ist: " + summe);
